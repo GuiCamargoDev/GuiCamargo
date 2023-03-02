@@ -1,3 +1,8 @@
+header {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
 nav{
    position: absolute;
    top: 100px;
@@ -45,9 +50,4 @@ nav6{
    margin:50px;
    padding:50px;
    background-color: chocolate;
-}
-header {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
 }

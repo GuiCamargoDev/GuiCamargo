@@ -12,19 +12,22 @@ header {
     position: fixed;
 }
 header ul li {
-        margin: 45px 50px 15px 45px;
+        margin: 35px 40px 25px 30px;
         list-style: none;
         display: flex;
         text-decoration: none;
 }
+header ul li a:hover {
+    transition: 1s;
+    color:#232323;
+}
 header ul{
     list-style: none;
-    justify-content: center;
+    margin: 1vh 1vh 1vh 1vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 80%;
-    margin-left: -11rem;
+    width: 100%;
 }
 header p {
     justify-content: center;
@@ -33,37 +36,99 @@ header p {
     flex-wrap: wrap;
     width: 11%;
     margin-top: 1vh;
-    margin-left: 0;
+    margin-left: 1vh;
 }
 .p0 {
-    padding: 15vh 0px 0px 0px;
+    padding: 25vh 0px 0px 0px;
 }
 header ul li a {
     color: #ffffff;
-    padding: 0;
     text-decoration: none;
-    transition: all 0.6s;
-    width: 100%;
-    display: block;
+    display: flex;
+    margin: 0vh 2vh 2vh 1vh;
 }
-
 h1, p {
    text-align: justify;
    display: flex;
    flex-direction: column;
    align-items: center; 
-   margin: 0px 150px 13px 150px;
+   margin: 0px 40px 13px 40px;
 }
-
-p {
-    padding: 1rem;
+.p {
+    margin: 5vh 10vh 5vh 10vh;
 }
 .m {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 1s;
 }
-.img {
+.img1 {
     margin: 1rem;
-    border: 2px solid #232323;
+    border: 4px solid #232323;
+}
+header a {
+    margin: 1vh 1vh 1vh 1vh;
+}
+header p a {
+    margin: 1vh 1vh 1vh 8vh;
+    display: flex;
+}
+body {
+    background: rgb(195, 210, 212);
+}
+.img2 {
+    display: flex;
+    justify-content: center;
+}
+h3 {
+    text-align: center;
+    margin: 0.5rem;
+}
+iframe {
+    display: flex;
+    margin: 2rem 35rem ;
+}
+.img3 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.you ul li {
+    display: flex;
+    flex-direction: row;
+}
+h2 {
+    text-align: center;
+    margin: 0.5rem;
+}
+li {
+    text-align: center;
+    margin: 0.5rem;
+}
+.rec ul li {
+    text-align: left;
+    margin: 2vh 20vh;   
+}
+.ing h2 {
+    text-align: left;
+    margin: 3vh 8vh;
+}
+.ing h3 {
+    text-align: left;
+    margin: 3vh 8vh;
+}
+.ing ol li {
+    text-align: left;
+    margin: 3vh 8vh;
+}
+.tex h2 {
+    display: flex;
+    text-align: center;
+    margin: 2vh 55vh;
+}
+.pat img {
+    display: flex;
+    justify-content: center;
+
 }
