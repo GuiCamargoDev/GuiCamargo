@@ -40,12 +40,13 @@ header p {
 }
 .p0 {
     padding: 15vh 0px 0px 0px;
+    color: #ffffff;
 }
 header ul li a {
     color: #ffffff;
     text-decoration: none;
     display: flex;
-    margin: 0vh 5vh 2vh -4vh;
+    margin: 0vh 2vh 2vh 1vh;
 }
 h1, p {
    text-align: justify;
@@ -65,6 +66,7 @@ h1, p {
 }
 .img1 {
     margin: 1rem;
+    border: 4px solid #232323;
 }
 header a {
     margin: 1vh 1vh 1vh 1vh;
@@ -73,69 +75,44 @@ header p a {
     margin: 1vh 1vh 1vh 8vh;
     display: flex;
 }
-body {
-    background: rgb(195, 210, 212);
-}
-.img2 {
-    display: flex;
-    justify-content: center;
-}
+.card {
+    width: 190px;
+    height: 254px;
+    background-image: linear-gradient(163deg, #00bfff 0%, #00bfff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+    display:inline-flex;
+    margin-block-start: 13vh;
+    margin-inline-start: 31vh;
+   }
+   
+   .card2 {
+    width: 190px;
+    height: 254px;
+    background-color: rgb(0, 0, 0);
+    border-radius:0;
+    transition: all .2s;
+   }
+   
+   .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+   .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.3);
+   }
 h3 {
-    text-align: center;
-    margin: 0.5rem;
-}
-iframe {
+    color:rgb(255, 255, 255);
     display: flex;
-    margin: 2rem 35rem ;
+    flex-direction: column;
 }
-.img3 {
-    display: flex;
-    justify-content: center;
-    margin: 1rem;
+a {
+    text-decoration: none;
 }
-.you {
-    align-items: left;
-    margin-left: 1vh;
+body {
+    background-color: rgb(53, 58, 58);
 }
-h2 {
-    text-align: center;
-    margin: 2vh;
-}
-li {
-    text-align: center;
-    margin: 0.5rem;
-}
-.rec ul li {
-    text-align: left;
-    margin: 2vh 20vh;   
-}
-.ing h2 {
-    text-align: left;
-    margin: 3vh 8vh;
-}
-.ing h3 {
-    text-align: left;
-    margin: 3vh 8vh;
-}
-.ing ol li {
-    text-align: left;
-    margin: 3vh 8vh;
-}
-.tex h2 {
-    display: flex;
-    text-align: center;
-    margin: 2vh 55vh;
-}
-.pat img {
-    display: flex;
-    justify-content: center;
-
-}
-.p111 {
-    padding: 17vh 0vh 0vh 0vh;
-}
-.p111 p {
-    display: flex;
-    align-items: start;
-    margin: 3vh 2vh 0vh 2vh; 
+.p0 h1 {
+    margin-top: 2vh;
 }
